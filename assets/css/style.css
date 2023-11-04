@@ -500,7 +500,7 @@ section {
   color: #173b6c;
 }
 
-.contact .info .email p {
+.contact .info .icons p {
   padding-top: 5px;
 }
 
@@ -528,7 +528,7 @@ section {
   color: #fff;
 }
 
-.contact .info .email:hover i,
+.contact .info .icons:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #149ddd;
