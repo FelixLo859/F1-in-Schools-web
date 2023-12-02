@@ -276,7 +276,7 @@ h6 {
   z-index: 2;
   min-width: 300px;
 }
-
+  
 #hero h1 {
   letter-spacing: 3px;
   margin: 0 0 10px 0;
@@ -642,14 +642,82 @@ section {
 }
 
 /*--------------------------------------------------------------
-# 
+# Sponsors page(in index page) style
 --------------------------------------------------------------*/
-.sponsors {
+.sponsors{
   padding-bottom: 30px;
 }
 
-.sponsors img {
+.sponsors img{
+  opacity: 0.5;
   width: 20%;
+  transition: 0.5s;
+}
+
+.sponsors img:hover{
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .sponsors img {
+    width: 30%;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sponsor page(For each page) style
+--------------------------------------------------------------*/
+
+.sponsor h2{
+  font-size: 50px;
+}
+
+.sponsor p{
+  font-size: 20px;
+}
+
+#sbutton {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #DFF3FC;
+  border: none;
+  color: #149ddd;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#sbutton:hover{
+  background-color: #149DDD;
+  color: #FFFFFF;
+}
+#sbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#sbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+
+}
+
+#sbutton:hover span {
+  padding-right: 25px;
+}
+
+#sbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 /*--------------------------------------------------------------
