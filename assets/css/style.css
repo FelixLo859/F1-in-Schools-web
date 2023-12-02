@@ -100,6 +100,8 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+
+
 #header .profile h1 a,
 #header .profile h1 a:hover {
   color: #fff;
@@ -120,7 +122,6 @@ h6 {
   height: 36px;
   transition: 0.7s;
 }
-
 
 #header .profile .social-links a:hover {
   background: #149ddd;
@@ -169,7 +170,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -195,7 +196,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
@@ -203,7 +204,7 @@ h6 {
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
-.nav-menu li:hover>a i {
+.nav-menu li:hover > a i {
   color: #149ddd;
 }
 
@@ -240,25 +241,24 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero{
+#hero {
   width: 100%;
   height: 100vh;
   background: url("../img/backgrounds/large-device.jpg") top center;
   background-size: cover;
 }
 
-@media(max-width: 768px) {
-  #hero{
-  background-image:url("../img/backgrounds/small-device.jpg");
+@media (max-width: 768px) {
+  #hero {
+    background-image: url("../img/backgrounds/small-device.jpg");
   }
 }
 
-@media(max-width: 500px) {
-  #hero{
-  background-image:url("../img/backgrounds/small-device.jpg");
+@media (max-width: 500px) {
+  #hero {
+    background-image: url("../img/backgrounds/small-device.jpg");
   }
 }
-
 
 #hero:before {
   content: "";
@@ -280,7 +280,7 @@ h6 {
 #hero h1 {
   letter-spacing: 3px;
   margin: 0 0 10px 0;
-  font-family: 'Planet Kosmos', sans-serif;
+  font-family: "Planet Kosmos", sans-serif;
   font-size: 60px;
   font-weight: 700;
   line-height: 56px;
@@ -384,7 +384,7 @@ section {
   margin-bottom: 20px;
   position: relative;
   color: #465161;
-} 
+}
 
 /*--------------------------------------------------------------
 # About
@@ -439,13 +439,13 @@ section {
   padding-top: 10px;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .awards img {
     width: 75%;
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .awards img {
     width: 50%;
   }
@@ -563,7 +563,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -618,7 +618,7 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -627,7 +627,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #37b3ed;
 }
 
@@ -663,11 +663,11 @@ section {
   font-size: 15px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #0e2442;
