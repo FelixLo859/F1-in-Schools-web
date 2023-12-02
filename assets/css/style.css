@@ -649,6 +649,7 @@ section {
 }
 
 .sponsors img{
+  margin-right: 55px;
   opacity: 0.5;
   width: 20%;
   transition: 0.5s;
@@ -660,6 +661,7 @@ section {
 
 @media (max-width: 768px) {
   .sponsors img {
+    margin-right: 9px;
     width: 30%;
   }
 }
@@ -699,7 +701,7 @@ section {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #sbutton span:after {
