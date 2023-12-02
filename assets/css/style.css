@@ -688,7 +688,7 @@ section {
   font-size: 28px;
   padding: 20px;
   width: 250px;
-  transition: all 0.5s;
+  transition: all 0.4s;
   cursor: pointer;
   margin: 5px;
 }
