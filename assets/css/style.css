@@ -648,8 +648,9 @@ section {
   padding-bottom: 30px;
 }
 
+#ansys
 .sponsors img{
-  margin-right: 55px;
+  margin: 25px;
   opacity: 0.5;
   width: 20%;
   transition: 0.5s;
@@ -661,7 +662,7 @@ section {
 
 @media (max-width: 768px) {
   .sponsors img {
-    margin-right: 9px;
+    margin:10px;
     width: 30%;
   }
 }
@@ -669,6 +670,9 @@ section {
 /*--------------------------------------------------------------
 # Sponsor page(For each page) style
 --------------------------------------------------------------*/
+.sponsor img {
+  margin-bottom: 30px;
+}
 
 .sponsor h2 {
   font-size: 50px;
