@@ -244,20 +244,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/backgrounds/large-device.jpg") top center;
+  background: url("../img/backgrounds/large-device.png") top center;
   background-size: cover;
-}
-
-@media (max-width: 768px) {
-  #hero {
-    background-image: url("../img/backgrounds/small-device.jpg");
-  }
-}
-
-@media (max-width: 500px) {
-  #hero {
-    background-image: url("../img/backgrounds/small-device.jpg");
-  }
 }
 
 #hero:before {
@@ -648,7 +636,6 @@ section {
   padding-bottom: 30px;
 }
 
-#ansys
 .sponsors img{
   margin: 25px;
   opacity: 0.5;
@@ -658,7 +645,7 @@ section {
 
 .sponsors img:hover{
   opacity: 1;
-}
+}   
 
 @media (max-width: 768px) {
   .sponsors img {
