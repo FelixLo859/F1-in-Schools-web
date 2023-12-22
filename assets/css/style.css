@@ -637,7 +637,7 @@ section {
 }
 
 .sponsors img{
-  margin: 25px;
+  margin-right: 25px;
   opacity: 0.5;
   width: 20%;
   transition: 0.5s;
@@ -646,6 +646,7 @@ section {
 .sponsors img:hover{
   opacity: 1;
 }   
+
 
 @media (max-width: 768px) {
   .sponsors img {
