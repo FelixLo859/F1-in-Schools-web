@@ -640,7 +640,7 @@ section {
   .sponsors img{
     margin-right: 25px;
     opacity: 0.5;
-    width: 22%;
+    width: 21%;
     transition: 0.5s;
     margin-left: 0px;
   }
@@ -651,7 +651,7 @@ section {
 
   #banitore-photo{
     margin: 20px;
-    width:26%;
+    width:24%;
   }
 
   #zf-photo{
@@ -679,14 +679,16 @@ section {
   }
 
   #spyc-photo{
-    width:27%;
+    width:25%;
   }
 
   #sccl-photo{
-    width:18%;
+    width:13%;
   }
 
-
+  #hpl-photo{
+    width:13%;
+  }
 
 
 @media (max-width: 768px) {
@@ -706,6 +708,7 @@ section {
     width:29%;
   }
 
+  
   #neta-photo{
     width:33%;
   }
@@ -724,7 +727,7 @@ section {
   #spyc-photo{
     width:43%;
   }
-  
+
   #mm-photo{
     width:11%;
     margin-bottom: 10px;
