@@ -662,12 +662,14 @@ section {
 
 
 #zf-photo{
-  width:17%;
-  margin-top: 0px;
+  width:9%;
+  margin: 10px;
+  margin-left:0px;
+  margin-right: 50px;
 }
 
 #mm-photo{
-  width:9%;
+  width:8%;
 }
 
 #spyc-photo{
@@ -678,6 +680,14 @@ section {
   width:19%;
 }
 
+#discusshk-photo{
+  margin-bottom: 10px;
+  width:21%;
+}
+
+#pc-photo{
+  margin-top: 10px;
+}
 /*--------------------------------------------------------------
 # Sponsor page(For each page) style
 --------------------------------------------------------------*/
