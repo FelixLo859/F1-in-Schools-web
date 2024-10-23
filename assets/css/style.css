@@ -652,6 +652,7 @@ section {
   #banitore-photo{
     margin: 20px;
     width:24%;
+    margin-left: 0px;
   }
 
   #zf-photo{
@@ -672,7 +673,7 @@ section {
     margin-top: 10px;
   }
   
-  #discusshk-photo{
+  #discuss-photo{
     margin-bottom: 20px;
     margin-top: 10px;
     width:17%;
@@ -687,7 +688,7 @@ section {
   }
 
   #hpl-photo{
-    width:13%;
+    width:23%;
   }
 
 
@@ -696,6 +697,10 @@ section {
     margin:10px;
     margin-left: 0px;
     opacity: 1;
+  }
+
+  #hpl-photo{
+    width:40%;
   }
 
   #banitore-photo{
@@ -740,7 +745,7 @@ section {
     margin-top: 10px;
   }
   
-  #discusshk-photo{
+  #discuss-photo{
     margin-bottom: 20px;
     margin-top: 10px;
     width:30%;
